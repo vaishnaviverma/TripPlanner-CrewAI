@@ -7,7 +7,7 @@ This is a travel planner tool that creates a 7-day itinerary based on your input
 - Dates of travel
 - Activities of interest
 
-##Technological Specifications
+## Technological Specifications
 
 ### Model: Mistral (local)
 Currently the tool leverages Mistral for the agents. It can be configured to use other models.
