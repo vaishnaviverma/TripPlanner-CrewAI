@@ -49,6 +49,12 @@ class TripCrew:
             self.interests
         )
 
+        # plan_itinerary depends on identify_city
+        plan_itinerary.depends_on = [identify_city]
+        
+        # gather_city_info depends on identify_city
+        gather_city_info.depends_on = [identify_city]
+        
         # Define your custom crew here
         crew = Crew(
             agents=[expert_travel_agent,
